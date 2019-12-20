@@ -1,0 +1,4 @@
+Gilroy Light
+ArciformSanscyr lat Regular
+Gilroy ExtraBold
+Roboto Light

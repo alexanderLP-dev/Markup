@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css" />
+    <title>Music Store</title>
+  </head>
+  <body>
+    <div class="wrap">
+    <nav class="menu ">
+      
+      
+        <img class="logo" src="img/logo.png" alt="logo pic" />
+        <ul>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Динамики</a></li>
+          <li><a href="#">Помощь</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+     
+    
+    </nav>
+    <!-- <div class="container"> -->
+      <!-- <div class="burger-menu">
+        <a href="#" class="burger-menu__button">
+          <span class="burger-menu__lines"></span>
+        </a>
+    
+        <nav class="burger-menu__nav">
+          <a href="#" class="burger-menu__link">О компании</a>
+          <a href="#" class="burger-menu__link">Динамики</a>
+          <a href="#" class="burger-menu__link">Помощь</a>
+          <a href="#" class="burger-menu__link">Контакты</a>
+        </nav>
+    
+        <div class="burger-menu__overlay"></div>
+      </div> -->
+    <!-- </div> -->
+    <header>
+      <div class="wrap">
+        <div class="intro">
+        <h1>высочайшее качество звука</h1>
+        <p>
+          Маленькая коробочка, несмотря на свои компактные размеры,<br> способна
+          создать широкую и сбалансированную звуковую сцену.
+        </p>
+        <button class="scroll_mouse">
+          <img src="img/mouse.png" alt="scroll pic">
+        </button>
+        </div>
+        
+      </div>
+    </header>
+    
+    <article class="description">
+      <div class="wrap">
+        <div class="offer ">
+          <p>
+            Несмотря на свою компактную форму, Sandro speakers звучат довольно
+            солидно и сбалансированно. В виде Sandra speakers наша компания
+            представила одни из самых элегантных и при этом мощных динамиков на
+            рынке.
+          </p>
+          
+          <img  src="img/dynamic.png" alt="dynamic" />
+        </div>
+        <button id="redButton">Купить</button>
+      
+      
+    </article>
+    </div>
+    <article class="container-fluid ">
+      <div class="row shops text-center ">
+      
+        <div class="shops " >
+          <h2>Топ продаж</h2>
+          <div class = "shop col-lg-4 col-md-4 col-12 col-sm-12">
+            <div class="sale"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <div class="container-fluid">
+      <div class="row">
+    <article class="about ">
+      <div class="wrap">
+        <div class="left-box col-lg-8">
+          <h2>О нас</h2>
+          <div>
+          <p>
+            Наша компания занимается разработкой высококачественных динамиков по
+            современным технологиям. Мы были основаны в 2010 году. и уже сейчас
+            вы можете приобрести наш товар в любой точке мира...
+          </p>
+          <button id="redButton">Подробнее</button>
+          <img src="img/hands.png" alt="hands" />
+
+          </div>
+        </div>
+        <div class="row">
+        <div class="right-box col-lg-4">
+          <img src="img/man.png" alt="man" />
+        </div>
+        </div>
+      </div>
+    </article>
+    </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+    <article class="advantages">
+      <div class="wrap">
+        <div class="advant-description">
+          <img src="icons/wi_fi_icon.png" alt="icon wi fi" />
+          <h4>Мобильность</h4>
+          <p>
+            Cоединение по Bluetooth не требует никаких дополнительных факторов.
+            Вы можете слушать музыку где угодно.
+          </p>
+        </div>
+        <div class="advant-description">
+          <img src="icons/dynamic_icon.png" alt="icon dynamics" />
+          <h4>Совместимость</h4>
+          <p>
+            Не важно, какой у вас девайс. Если в нем есть Bluetooth, значит он
+            гарантированно будет работать с беспроводной акустикой.
+          </p>
+        </div>
+        <div class="advant-description">
+          <img src="icons/remote.png" alt="icon remote control" />
+          <h4>Передача голоса</h4>
+          <p>
+            Наши Bluetooth динамики оснащены встроенным микрофоном, и могут
+            работать в режиме громкой связи.
+          </p>
+        </div>
+      </div>
+
+    </article>
+    </div>
+    </div>
+    <!-- добавить враппер -->
+    <article class="user">
+      <div class="container-fluid modal-window-user" hidden>
+        <div class="row">
+          <button class="btn-close glyphicon glyphicon-remove btn-lg pull-right"></button>
+        </div>
+          <div class="row">
+          <h4>Оставить отзыв</h4>
+          <form action="">
+            <input type="text" placeholder= "Ваше имя" required>
+            <textarea name="message" placeholder="Оставьте отзыв..." id="" cols="25" rows="10"></textarea>
+            <button id="redButton" >Отправить</button>
+          </form>
+          
+        </div>
+      </div>
+      <div class="user-ava">
+      <img src="img/user.png" alt="user icon" />
+      <h5>Миша</h5>
+      </div>
+      <div class="user-coment">
+      <div class="container">
+        <div class="row">
+      
+        <button class="glyphicon glyphicon-menu-left arrow-left"></button>     
+      <p>
+        «Я понимал, что акустика будет хорошей, но что она ТАК играет даже не
+        думал! Просто трясет квартиру от полного баса. Также порадовал
+        механический эквалайзер, нигде такого не встречал»
+      </p>
+       
+      <button class = "glyphicon glyphicon-menu-right arrow-right"></button> 
+      </div>
+      
+      </div>
+      <button class="user-btn">Оставить отзыв</button>
+      </div>
+      
+    </article>
+    <article class=" about_user ">
+      <div class=" container-fluid modal-window-user modal-form" hidden >
+        <div class="modal-body">
+        <div class="row ">
+             <button class="btn-close close-form glyphicon glyphicon-remove btn-lg pull-right"></button>
+        </div>
+        <div class="row text-center gratitude">
+          <h1>Спасибо за Вашу заявку</h1>
+          <h2>Наш менеджер свяжется с Вами в ближайшее время</h2>
+        </div>
+      </div>
+      </div>
+      <div class="row">
+      <div class=" heading">
+      <h2><span>КУПИТЬ Bluetooth ДИНАМИК ПО</span>  АКЦИОННОЙ ЦЕНЕ</h2>
+        <p>
+          Оставьте ваши контактные данные и мы отправим Вам
+          подробную информацию о наличии и точках продаж.
+        </p>
+        </div>
+        <form action="">
+            <label for="name">Ваше имя :</label>
+            <input type="text" id="name" placeholder="Введите ваше имя :" required/>
+            <label for="phone" >Ваш контактный телефон :</label>
+            <input type="phone" placeholder="Введите ваш номер телефона :" id="phone" required />
+            <label for="email">Ваш e-mail :</label>
+            <input type="email" id="email"placeholder="Введите вашу почту :" />
+            <button id="redButton" class="user-btn open-modal-form  ">Оставить заявку</button>
+          </form>
+          
+      </div>
+      
+    </article>
+    <footer>
+      <ul>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Динамики</a></li>
+        <li><a href="#">Помощь</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </footer>
+        <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+        
+        <script src = "js/modal.js"></script> 
+        <script src="js/javascript.js"></script>
+       
+  </body>
+</html>
