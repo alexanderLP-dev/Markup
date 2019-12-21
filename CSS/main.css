@@ -478,6 +478,10 @@ textarea {
   top: 150px;
 }
 
+.small__menu button {
+  display: none;
+}
+
 @media screen and (max-width: 986px) {
   .description {
     display: flex;
@@ -517,9 +521,17 @@ textarea {
   .right-box {
     display: none;
   }
+
+  .shop button {
+    width: 80%;
+  }
+
+  .scroll_mouse {
+    display: none;
+  }
 }
 
-@media (min-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .small__menu button {
     display: none;
   }
@@ -547,7 +559,10 @@ textarea {
   }
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 675px) {
+  .small__menu button {
+    display: block;
+  }
   .shop {
     flex-flow: column;
   }
@@ -562,11 +577,15 @@ textarea {
 
   .showcase:nth-of-type(4) {
     margin-bottom: 30%;
-    margin-top: -25%;
+    margin-top: -18%;
   }
 
   .about {
     text-align: center;
+  }
+
+  .about p {
+    margin: 0 auto;
   }
 
   form {
