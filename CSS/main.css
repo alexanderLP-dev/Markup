@@ -672,6 +672,10 @@ textarea {
   .small__menu button {
     display: block;
   }
+
+  .scroll_mouse {
+    display: none;
+  }
   .shop {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
