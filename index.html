@@ -11,9 +11,8 @@
   </head>
   <body>
     <div class="wrap">
+
     <nav class="menu ">
-      
-      
         <img class="logo" src="img/logo.png" alt="logo pic" />
         <ul>
           <li><a href="#">О компании</a></li>
@@ -22,25 +21,18 @@
           <li><a href="#">Контакты</a></li>
         </ul>
       </div>
-     
-    
     </nav>
-    <!-- <div class="container"> -->
-      <!-- <div class="burger-menu">
-        <a href="#" class="burger-menu__button">
-          <span class="burger-menu__lines"></span>
-        </a>
-    
-        <nav class="burger-menu__nav">
-          <a href="#" class="burger-menu__link">О компании</a>
-          <a href="#" class="burger-menu__link">Динамики</a>
-          <a href="#" class="burger-menu__link">Помощь</a>
-          <a href="#" class="burger-menu__link">Контакты</a>
-        </nav>
-    
-        <div class="burger-menu__overlay"></div>
-      </div> -->
-    <!-- </div> -->
+
+    <div class="small__menu pull-right">
+      <button data-menuBtn class="btn small_menu btn-default glyphicon glyphicon-menu-hamburger btn-lg" type="submit"></button>
+      <ul class="hidden" id="menu">
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Динамики</a></li>
+        <li><a href="#">Помощь</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+
     <header>
       <div class="wrap">
         <div class="intro">
@@ -58,21 +50,28 @@
     </header>
     
     <article class="description">
+      
       <div class="wrap">
-        <div class="offer ">
+        <div class="container-fluid">
+          <div class="row">
+        <div class="offer col-lg-8 col-md-12 col-sm-12">
           <p>
             Несмотря на свою компактную форму, Sandro speakers звучат довольно
             солидно и сбалансированно. В виде Sandra speakers наша компания
             представила одни из самых элегантных и при этом мощных динамиков на
             рынке.
           </p>
-          
-          <img  src="img/dynamic.png" alt="dynamic" />
-        </div>
         <button id="redButton">Купить</button>
+        </div>
+
+          <div class="dynamic col-lg-8 col-md-12 col-sm-12">
+          <img  src="img/dynamic.png" alt="dynamic" />  
+      </div>
       
-      
+      </div>
+      </div>
     </article>
+    
     </div>
     <article class="container-fluid ">
       <div class="row shops text-center ">
@@ -85,11 +84,12 @@
         </div>
       </div>
     </article>
-    <div class="container-fluid">
+
+    <div class="container-fluid nopad">
       <div class="row">
     <article class="about ">
       <div class="wrap">
-        <div class="left-box col-lg-8">
+        <div class="left-box col-lg-8 col-md-8 col-sm-12">
           <h2>О нас</h2>
           <div>
           <p>
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="row">
-        <div class="right-box col-lg-4">
+        <div class="right-box col-lg-4 col-md-4 ">
           <img src="img/man.png" alt="man" />
         </div>
         </div>
@@ -115,7 +115,7 @@
       <div class="row">
     <article class="advantages">
       <div class="wrap">
-        <div class="advant-description">
+        <div class="advant-description col-md-4 col-sm-4 col-xs-12">
           <img src="icons/wi_fi_icon.png" alt="icon wi fi" />
           <h4>Мобильность</h4>
           <p>
@@ -123,7 +123,7 @@
             Вы можете слушать музыку где угодно.
           </p>
         </div>
-        <div class="advant-description">
+        <div class="advant-description col-md-4 col-sm-4 col-xs-12">
           <img src="icons/dynamic_icon.png" alt="icon dynamics" />
           <h4>Совместимость</h4>
           <p>
@@ -131,7 +131,7 @@
             гарантированно будет работать с беспроводной акустикой.
           </p>
         </div>
-        <div class="advant-description">
+        <div class="advant-description col-md-4 col-sm-4 col-xs-12">
           <img src="icons/remote.png" alt="icon remote control" />
           <h4>Передача голоса</h4>
           <p>
@@ -155,7 +155,7 @@
           <form action="">
             <input type="text" placeholder= "Ваше имя" required>
             <textarea name="message" placeholder="Оставьте отзыв..." id="" cols="25" rows="10"></textarea>
-            <button id="redButton" >Отправить</button>
+            <button type="submit" id="redButton" class="small" >Отправить</button>
           </form>
           
         </div>
@@ -165,7 +165,7 @@
       <h5>Миша</h5>
       </div>
       <div class="user-coment">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
       
         <button class="glyphicon glyphicon-menu-left arrow-left"></button>     
@@ -183,20 +183,22 @@
       </div>
       
     </article>
-    <article class=" about_user ">
-      <div class=" container-fluid modal-window-user modal-form" hidden >
+    <article class="about_user">
+      <div class="container-fluid modal-window-user modal-form" hidden >
         <div class="modal-body">
-        <div class="row ">
+        <div class="row">
              <button class="btn-close close-form glyphicon glyphicon-remove btn-lg pull-right"></button>
         </div>
-        <div class="row text-center gratitude">
+        <div class="row">
+          <div class="gratitude">
           <h1>Спасибо за Вашу заявку</h1>
           <h2>Наш менеджер свяжется с Вами в ближайшее время</h2>
+        </div>
         </div>
       </div>
       </div>
       <div class="row">
-      <div class=" heading">
+      <div class="heading">
       <h2><span>КУПИТЬ Bluetooth ДИНАМИК ПО</span>  АКЦИОННОЙ ЦЕНЕ</h2>
         <p>
           Оставьте ваши контактные данные и мы отправим Вам
@@ -210,7 +212,7 @@
             <input type="phone" placeholder="Введите ваш номер телефона :" id="phone" required />
             <label for="email">Ваш e-mail :</label>
             <input type="email" id="email"placeholder="Введите вашу почту :" />
-            <button id="redButton" class="user-btn open-modal-form  ">Оставить заявку</button>
+            <button type="submit" id="redButton" class="user-btn open-modal-form  ">Оставить заявку</button>
           </form>
           
       </div>
@@ -224,10 +226,11 @@
         <li><a href="#">Контакты</a></li>
       </ul>
     </footer>
-        <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         
-        <script src = "js/modal.js"></script> 
+        <script src = "js/modal.js"></script>
+        <script src="js/small_menu.js"></script> 
         <script src="js/javascript.js"></script>
        
   </body>
